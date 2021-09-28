@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
-import { QuestionAnswer } from '../faq/QuestionAnswer';
-import { Section } from '../layout/Section';
+import { QuestionAnswer } from '../basic/faq/QuestionAnswer';
+import { Section } from '../basic/section/Section';
 
 const FAQ = () => (
   <Section

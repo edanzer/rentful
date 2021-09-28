@@ -1,8 +1,8 @@
-import { Meta } from '../components/layout/Meta';
+import { Meta } from '../components/partials/meta/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Features } from '../components/template/Features';
-import { Footer } from '../components/template/Footer';
-import { Hero } from '../components/template/Hero';
+import { Features } from '../components/sections/Features';
+import { Footer } from '../components/partials/footer/Footer';
+import { Hero } from '../components/sections/Hero';
 
 
 const Index = () => (

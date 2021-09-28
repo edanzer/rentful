@@ -1,6 +1,6 @@
-import { RoundedBackground } from '../background/RoundedBackground';
-import { Section } from '../layout/Section';
-import { TestimonialCard } from '../testimonial/TestimonialCard';
+import { RoundedBackground } from '../basic/background/RoundedBackground';
+import { Section } from '../basic/section/Section';
+import { TestimonialCard } from '../basic/testimonial/TestimonialCard';
 
 const Testimonial = () => (
   <Section title="Customer's Review" subtitle="Testimonials">
