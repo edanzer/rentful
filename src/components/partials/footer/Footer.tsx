@@ -6,10 +6,10 @@ import { FooterLinks } from './FooterLinks';
 import { FooterTwoRowsCopyright } from './FooterTwoRowsCopyright';
 import { Section } from '../../basic/section/Section';
 import { AppConfig } from '../../../utils/AppConfig';
-import { Logo } from '../logo/Logo';
+import { Logo } from '../header/Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-gray-100 mt-12">
     <Section>
       <FooterTwoRowsCopyright siteName={AppConfig.site_name}>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
@@ -23,12 +23,12 @@ const Footer = () => (
           </FooterLinks>
           <FooterLinks title="Resources">
             <li>
-              <Link href="/local-market-rents">
+              <Link href="/local-rent-data">
                 <a>Local Market Rents</a>
               </Link>
             </li>
             <li>
-              <Link href="/gross-rental-multiplier">
+              <Link href="/gross-rent-multipliers">
                 <a>Gross Rental Multipliers</a>
               </Link>
             </li>
