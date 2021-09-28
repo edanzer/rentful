@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
+  site_name: 'Rentful',
+  title: 'Real Estate Investment Data',
   description:
-    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore ducimus animi perferendis, placeat fugit.',
+    'This site provides a range of different real estate investing data ranging from current market rent to investment ratios like gross multipliers.',
   locale: 'en',
 };

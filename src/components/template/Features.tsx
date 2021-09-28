@@ -5,7 +5,7 @@ const Features = () => (
   <Section>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-x-3 gap-y-8">
       <FeatureElement
-        title="Your title"
+        title="Market Rents"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,10 +19,10 @@ const Features = () => (
           </svg>
         }
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Look up hyper-local, neighborhood-by-neighborhood market rental rates in your area, based on large and up-to-date datasets.
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Gross Rent Multipliers"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +37,10 @@ const Features = () => (
           </svg>
         }
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Gross rental multipliers are a common predictor of cash flow on rental real estate. Quickly check average gross rental multipliers by location.
       </FeatureElement>
       <FeatureElement
-        title="Your title"
+        title="Fair Market Rents"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const Features = () => (
           </svg>
         }
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Look up "fair market rent" as official determined by the US Dept of Housing and Urban Development.
       </FeatureElement>
     </div>
   </Section>

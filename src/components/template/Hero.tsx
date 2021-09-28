@@ -12,24 +12,24 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">
-            <a>Docs</a>
+          <Link href="/local-rent-data">
+            <a>Local Rent Data</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Blog</a>
+          <Link href="/gross-rent-multipliers">
+            <a>Gross Rent Multipliers</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/login">
             <a>Sign in</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/sign-up">
             <a>
-              <Button>Start Free Trial</Button>
+              <Button>Create Account</Button>
             </a>
           </Link>
         </li>
@@ -40,15 +40,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developer</span>
+            {'Your hub for up-to-date\n'}
+            <span className="text-primary-500">real estate investment data.</span>
           </>
         }
-        description="The easiest way to build React landing page in seconds."
+        description="Easily check local market rental rates, gross multipliers, and more."
         button={
           <Link href="/">
             <a>
-              <Button xl>Start your 14-day Free Trial</Button>
+              <Button xl>Sign Up for Free</Button>
             </a>
           </Link>
         }
