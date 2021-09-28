@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import { Button } from '../button/Button';
-import { Section } from '../layout/Section';
-import { PricingCard } from '../pricing/PricingCard';
-import { PricingFeature } from '../pricing/PricingFeature';
+import { Button } from '../basic/button/Button';
+import { Section } from '../basic/section/Section';
+import { PricingCard } from '../basic/pricing/PricingCard';
+import { PricingFeature } from '../basic/pricing/PricingFeature';
 
 const Pricing = () => (
   <Section title="Flexible Plans" subtitle="Pricing">
