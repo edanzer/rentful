@@ -5,7 +5,7 @@ import { FooterCompanyInfo } from '../footer/FooterCompanyInfo';
 import { FooterLinks } from '../footer/FooterLinks';
 import { FooterTwoRowsCopyright } from '../footer/FooterTwoRowsCopyright';
 import { Section } from '../layout/Section';
-import { AppConfig } from '../utils/AppConfig';
+import { AppConfig } from '../../utils/AppConfig';
 import { Logo } from './Logo';
 
 const Footer = () => (
