@@ -19,92 +19,51 @@ const Footer = () => (
               description={AppConfig.description}
             />
           </div>
-
-          <FooterLinks title="Product">
-            <li>
-              <Link href="/">
-                <a>First link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Second link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Third link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Forth link</a>
-              </Link>
-            </li>
+          <FooterLinks title="">
           </FooterLinks>
           <FooterLinks title="Resources">
             <li>
-              <Link href="/">
-                <a>First link</a>
+              <Link href="/local-market-rents">
+                <a>Local Market Rents</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Second link</a>
+              <Link href="/gross-rental-multiplier">
+                <a>Gross Rental Multipliers</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Third link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Forth link</a>
+              <Link href="https://www.huduser.gov/portal/datasets/fmr.html">
+                <a>Fair Market Rents</a>
               </Link>
             </li>
           </FooterLinks>
-          <FooterLinks title="Contact">
+          <FooterLinks title="Data + Methods">
             <li>
-              <Link href="/">
-                <a>First link</a>
+              <Link href="https://www.zillow.com/research/data/">
+                <a>Zillow Data</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Second link</a>
+              <Link href="https://www.rentometer.com/rentometer-api-release-notes">
+                <a>Rentometer API</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Third link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Forth link</a>
+              <Link href="/methodology">
+                <a>Methodology</a>
               </Link>
             </li>
           </FooterLinks>
-          <FooterLinks title="Legal">
+          <FooterLinks title="Other">
             <li>
-              <Link href="/">
-                <a>First link</a>
+              <Link href="/about">
+                <a>About</a>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <a>Second link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Third link</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Forth link</a>
+              <Link href="/contact">
+                <a>Contact</a>
               </Link>
             </li>
           </FooterLinks>
