@@ -3,3 +3,80 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.search-box {
+  justify-content: center;
+  margin-top: 26px;
+}
+.search-box .form-group {
+  display:inline-block;
+}
+.search-box .rbt-input {
+  width: 400px;
+  border-radius: 2px 0 0 2px;
+  outline: none;
+  height: 44px;
+}
+.search-box .rbt-input:focus,
+.search-box .rbt-input:active {
+  box-shadow: none;
+}
+
+.search-box button {
+  background: #03a9f4;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 30px;
+  border-radius: 0 2px 2px 0;
+  letter-spacing: .5px;
+  margin-top: -3px;
+}
+.search-box button:hover,
+.search-box button:active,
+.search-box button:focus {
+  background: #03a9f4 !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+}
+
+.search-box  .dropdown-item:active {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+
+.results {
+  padding: 40px;
+  width: 90%;
+}
+.results h1 {
+  color: black;
+}
+.results .results-card {
+  margin-right: 20px;
+  width: 350px
+}
+.results .location {
+  background: #03a9f4;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 1.25rem;
+}
+.results .remove-button {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: none;
+  opacity: .8;
+  position: absolute;
+  right: 14px;
+  top: 10px;
+}
+.results .list-group-item p {
+  margin-bottom: 0;
+}

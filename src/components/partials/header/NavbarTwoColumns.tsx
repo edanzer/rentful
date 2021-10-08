@@ -21,6 +21,8 @@ const NavbarTwoColumns = (props: INavbarProps) => {
     'sm:block',
     'mt-2',
     'sm:mt-0',
+    'flex',
+    'content-center',
     {
       hidden: !showMenu,
     }
@@ -56,7 +58,7 @@ const NavbarTwoColumns = (props: INavbarProps) => {
       </div>
 
       <nav className={navClass}>
-        <ul className="navbar flex flex-col sm:flex-row sm:items-center font-medium text-xl text-gray-800 pt-3 pb-5 px-5 sm:p-0 bg-white sm:bg-transparent rounded">
+        <ul className="navbar flex flex-col sm:flex-row sm:items-center font-medium text-xl text-gray-800 sm:p-0 bg-transparent rounded">
           {props.children}
         </ul>
       </nav>
